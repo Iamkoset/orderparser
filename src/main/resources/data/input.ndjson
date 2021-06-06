@@ -1,0 +1,6 @@
+{"orderId":null,"amount":1.23,"currency":"USD","comment":"оплата заказа"}
+{"orderId":4,"amount":1.24,"currency":"EUR","comment":"оплата заказа"}
+{"test":4,"test1":1.24,"test2":"EUR","test4":"оплата заказа"}
+
+{“orderId”:5,”amount”:1.23,”currency”:”USD”,”comment”:”оплата заказа”}
+{“orderId”:6,”amount”:1.24,”currency”:”EUR”,”comment”:”оплата заказа”}
