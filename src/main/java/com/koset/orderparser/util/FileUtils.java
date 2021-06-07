@@ -18,9 +18,7 @@ public class FileUtils {
                 .filter(f -> f.contains(DOT))
                 .map(f -> f.substring(filePath.lastIndexOf(DOT) + 1))
                 .orElseThrow(
-                        () -> {
-                            throw new ServiceException("No file extension found: " + filePath);
-                        }
+                        () -> new ServiceException("No file extension found: " + filePath)
                 );
     }
 
